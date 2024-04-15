@@ -1,5 +1,5 @@
 {
-    "name": "math-power",
+    "name": "pxt-math-power",
     "version": "0.1.1",
     "description": "Math - fast power for fractional exponents",
     "license": "MIT",
