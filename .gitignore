@@ -1,4 +1,6 @@
 # MakeCode
+package-lock.json
+package.json
 built
 node_modules
 yotta_modules
