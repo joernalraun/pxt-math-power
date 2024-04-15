@@ -1,16 +1,17 @@
 {
-    "name": "pxt-math-power",
-    "description": "",
+    "name": "math-power",
+    "version": "0.0.1",
+    "description": "Math - fast power for fractional exponents",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md",
-        "math-power.ts"
+        "math-power.cpp",
+        "math-power.ts",
+        "shims.d.ts",
+        "enums.d.ts",
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
