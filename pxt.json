@@ -1,6 +1,6 @@
 {
     "name": "math-power",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "Math - fast power for fractional exponents",
     "license": "MIT",
     "dependencies": {
