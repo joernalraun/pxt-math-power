@@ -1,3 +1,9 @@
+/**
+ * (c) 2021, Micro:bit Educational Foundation and contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 namespace Math {
     /**
      * Returns the value of a base expression taken to a specified power.
