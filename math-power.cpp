@@ -1,5 +1,5 @@
 /**
- * (c) 2021, Micro:bit Educational Foundation and contributors
+ * (c) 2024, Micro:bit Educational Foundation and contributors
  *
  * SPDX-License-Identifier: MIT
  */
@@ -19,11 +19,11 @@ namespace Math {
 */
 
 
+
 namespace Math {
 
     //%
-    float power(float x, float y) {
-        return ::pow(x, y);
-    }
-	
+    TNumber power(TNumber x, TNumber y) {
+        return fromFloat(::pow(toFloat(x), toFloat(y)));
+    }	
 }
