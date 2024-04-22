@@ -1,6 +1,6 @@
 {
     "name": "pxt-math-power",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Math - fast power for fractional exponents",
     "license": "MIT",
     "dependencies": {
