@@ -15,12 +15,12 @@ namespace Math {
     //% x.defl=1
     //% y.defl=1
     export function power(x: number, y: number): number {
+        if (Math.floor(y) == y) {
+			Math.pow(x, y)
+		}
         if (x > 0) {
             return Math.exp(y * Math.log(x))
         }
-        if (x < 0 && Math.round(y) != y) {
-            return Math.log(x)
-        }
-        return Math.pow(x, y);
+        return Math.log(x)
     }
 }
