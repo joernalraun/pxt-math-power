@@ -8,29 +8,6 @@
 #include <cmath>
 
 
-/*
-namespace Math {
-
-    // %
-    TNumber power(TNumber x, TNumber y) {
-        return fromDouble(::pow(toDouble(x), toDouble(y)));
-    }	
-}
-
-
-
-namespace Math {
-
-    //%
-    TNumber power(TNumber x, TNumber y) {
-        return fromFloat(::pow(toFloat(x), toFloat(y)));
-    }	
-}
-*/
-
-
-
-
 namespace Math {
 
     //%
