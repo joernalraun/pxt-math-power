@@ -16,7 +16,6 @@ namespace Math {
         return fromDouble(::pow(toDouble(x), toDouble(y)));
     }	
 }
-*/
 
 
 
@@ -25,5 +24,27 @@ namespace Math {
     //%
     TNumber power(TNumber x, TNumber y) {
         return fromFloat(::pow(toFloat(x), toFloat(y)));
+    }	
+}
+*/
+
+
+
+
+namespace Math {
+
+    //%
+    TNumber power(TNumber x, TNumber y) {
+		double dx = toDouble(x);
+		double dy = toDouble(y);
+		if ( ::floor( dy) == dy)
+		{
+			return fromDouble(__builtin_powi(dx, dy));
+		}
+		if ( dx > 0)
+		{
+			return fromDouble( ::exp( dy * ::log( dx)));
+		}
+		return fromDouble( ::log( dx));
     }	
 }

@@ -36,3 +36,9 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(t0)
     basic.showNumber(v)
 })
+input.onButtonPressed(Button.AB, function () {
+    basic.showNumber(Math.power(-2, -2))
+    basic.showNumber(Math.power(2, -0.5))
+    basic.showNumber(Math.power(10, 3 / 2))
+    basic.showNumber(Math.power(-10, 3 / 2))
+})
