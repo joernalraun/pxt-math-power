@@ -12,6 +12,7 @@ namespace Math {
      */
 	//% shim=Math::power
     //% block="$x|to power $y"
+    //% block.loc.de="$x|hoch $y"
     //% x.defl=1
     //% y.defl=1
     export function power(x: number, y: number): number {
